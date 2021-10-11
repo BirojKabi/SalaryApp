@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SailSal</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="wage_board">Wage Board Date</string>
+    <string name="promotion">Promotion</string>
+    <string name="grade">Grade </string>
+    <string name="basic">Basic Pay</string>
+    <string name="increment">Increment</string>
+    <string name="da">Dearness Allowance( % )</string>
+    <string name="three_yr_promo">Three Year Promotion</string>
+    <string name="mgb">M.G.B</string>
+    <string name="perk">Perk</string>
+    <string name="arrearsF">Arrears (From)</string>
+    <string name="arrearsT">Arrears (To)</string>
+    <string name="submit">Submit</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="helper">Sailsal is an application for all the non-executives for Steel Authority of India limited. It will give  you  your  <b> Old  Basic, New Basics,  Old D.A,  New  D.A., Scale Code</b> and also calculate the <b>Arrears</b> for user specific date span. It is only for easing out all the complex calculations related to the foregoing wage revision. This application consists of four pages. In the first two pages, you have to enter your details and in the third and fourth page you will get your queries out. Let us explore its pages first.</string>
+    <string name="helper2">In the first page there are six input boxes. Let us discuss each one.</string>
+    <string name="helper3"><b>Wage Board Date-</b> Here the date of wage board is to be entered. 2017/1/1 is shown by default for user’s convenience.</string>
+    <string name="helper4"><b>Increment-</b> Here, the month of increment is required. Any date can be entered but the month should be the month of increment.</string>
+    <string name="helper5"><b>Three Year promotion-</b> In this field one has to enter date of its three years promotion only if availed after the date of wage board. Else leave it empty.</string>
+    <string name="helper6"><b>Arrears from-</b> This field is for the date from which user wants to calculate the arrear. Here also default date was the wage board date, which can be changed further as per the user’s wish.</string>
+    <string name="helper7"><b>Arrears to-</b> It is for the date up to which user wants to calculate its arrear value.</string>
+    <string name="helper8">Here five input fields are given. Let us see one by one.</string>
+    <string name="helper9"><b>Basic pay-</b> here you have to enter the basic pay as per one month before the wage board date. For the default value of 2017/1/1, it will be 2016/12/1 day’s basic pay.</string>
+    <string name="helper10"><b>Grade-</b> The grade field should be entered with the corresponding grade of the basic pay that you have entered in the Basic pay field.</string>
+    <string name="helper11"><b>Dearness Allowance-</b> This input field is for the DA value as on the date of wage board entered in the first page. Here for the default date of 2017/1/1, it will be 40.1 percent. </string>
+    <string name="helper12"><b>M.G.B-</b> This is for the MGB value in percent, which has been decided in the wage board. Here default value is given as 13 percent.</string>
+    <string name="helper13"><b>Perk-</b> Percentage perk as per the wage board has to be entered right here. </string>
+    <string name="helper14">This is the section for the result of your queries, that the user has entered in the first two pages. Based on user’s entries a month wise templates will be prepared for the user, starting from the date of wage board up to the current date. The only thing the user has to do is to scroll down to see all these details. Each templates has individual month comparing with the new and old values of Basic Pay, D.A and Total (Basic Pay and DA). It also shows the corresponding scale codes of the user. On hitting Next button user will be redirected to Fourth page.</string>
+    <string name="helper15">This is the last Fragment of this application. It shows all the findings of current month along with the arrears (as per the date entered by the user), total of new basic pay, DA, perk values.</string>
+    <string name="helper16">For any queries, feel free to mail me at:</string>
+    <string name="helper17"><b>birojkabi88@gmail.com</b></string>
+
+
+
+</resources>

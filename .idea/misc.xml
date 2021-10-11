@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/sailSal2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17916666666666667" />
+        <entry key="..\:/sailSal2/app/src/main/res/drawable/ic_clear_text.xml" value="0.25462962962962965" />
+        <entry key="..\:/sailSal2/app/src/main/res/drawable/ic_datepicker.xml" value="0.25462962962962965" />
+        <entry key="..\:/sailSal2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17916666666666667" />
+        <entry key="..\:/sailSal2/app/src/main/res/drawable/ic_next.xml" value="0.25462962962962965" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_credit.xml" value="0.21" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_fourth.xml" value="0.25" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_preference.xml" value="0.25" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/fragment_third.xml" value="0.25" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/item_view.xml" value="0.4330708661417323" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/nav_header.xml" value="0.5" />
+        <entry key="..\:/sailSal2/app/src/main/res/layout/preference.xml" value="0.13518518518518519" />
+        <entry key="..\:/sailSal2/app/src/main/res/menu/drawer_menus.xml" value="0.18055555555555555" />
+        <entry key="..\:/sailSal2/app/src/main/res/menu/nav_menu.xml" value="0.18055555555555555" />
+        <entry key="..\:/sailSal2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/sailSal2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
