@@ -355,6 +355,4 @@ class ThirdFragment : Fragment() {
             }.show()
     }
 
-
-
 }
