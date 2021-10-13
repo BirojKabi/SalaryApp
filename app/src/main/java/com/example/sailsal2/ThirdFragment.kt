@@ -59,13 +59,13 @@ class ThirdFragment : Fragment() {
             44.8, 44.8, 44.8, 44.9, 44.9, 44.9, 45.5, 45.5, 45.5, 50.3, 50.3, 50.3,
             52.4, 52.4, 52.4, 54.0, 54.0, 54.0, 57.4, 57.4, 57.4, 60.8, 60.8, 60.8,
             64.1, 64.1, 64.1, 66.3, 66.3, 66.3, 65.8, 65.8, 65.8, 69.4, 69.4, 69.4,
-            73.2, 73.2, 73.2, 72.6, 72.6, 72.6, 74.6, 74.6, 74.6, 78.1, 78.1, 78.1)
+            73.2, 73.2, 73.2, 72.6, 72.6, 72.6, 74.6, 74.6, 74.6, 78.1, 78.1, 78.1, 78.1, 78.1, 78.1)
 
         val newDaP = listOf<Double>(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.2, 2.2, 2.2, 3.4, 3.4, 3.4,
             3.6, 3.6, 3.6, 3.9, 3.9, 3.9,7.4, 7.4, 7.4, 8.9, 8.9, 8.9, 10.1, 10.1, 10.1,
             14.2, 14.2, 14.2, 14.8, 14.8, 14.8, 17.2, 17.2, 17.2, 18.8, 18.8, 18.8,
             18.4,18.4, 18.4, 20.9, 20.9, 20.9, 23.7, 23.7, 23.7, 23.2, 23.2, 23.2,
-            25.1, 25.1, 25.1, 28.6, 28.6, 28.6)
+            25.1, 25.1, 25.1, 27.18, 27.18, 27.18, 27.18, 27.18, 27.18)
 //--------------------------calculation Starts from here-------------------------------------------------
 
         var hike = 0
@@ -347,7 +347,7 @@ class ThirdFragment : Fragment() {
 
     private fun alertdialog(view: View) {
 
-        var msg = "Your Basic structure is stagnant. Since new basic structure is not out yet, Open ended Basic pay will be displayed here"
+        var msg = "Your Basic Pay is stagnant. Since new basic structure is not out yet, Open ended Basic pay will be displayed here"
         val builder = AlertDialog.Builder(requireActivity())
         builder.setTitle("Alert").setMessage("$msg")
             .setPositiveButton("ok") { dialogInterface, it ->
