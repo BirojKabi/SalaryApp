@@ -8,6 +8,8 @@
     <color name="teal_100">#E3F2FD</color>
     <color name="black">#1E1B1B</color>
     <color name="yellow">#FDD835</color>
+    <color name="gray">#7C7C7C</color>
+    <color name="purple">#4527A0</color>
 
     //-------------------------------------------
     <color name="white">#E9E9E9</color>

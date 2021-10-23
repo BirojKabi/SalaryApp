@@ -21,8 +21,8 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
     var errorCode = 0
     var dateStr = ""
     var curDate = ""
-    var baseYear_month = 0
-    var baseYear_year = 0
+    var baseYear_month = 1
+    var baseYear_year = 2017
     var promotion_month = 0
     var promotion_year = 0
     var increment_month = 0
@@ -51,9 +51,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
         //val currrentDate: String
 
         // To set all the date values from corresponding date picker.
-        view.wage_board_fbtn.setOnClickListener { view ->
-            datePickerView(wage_board_text)
-        }
+
 
         view.promotion_fbtn.setOnClickListener { view ->
             val promotion = datePickerView(promotion_text)
@@ -110,10 +108,10 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
 
     private fun move_to_secondFragment(view: View) {
         // Assigning individual year and month values to string variables after splitting them.
-        val wage_board = view.wage_board_text.text.toString()
+        /*val wage_board = view.wage_board_text.text.toString()
         val wage_board_date = wage_board.split("/")
         baseYear_year = wage_board_date[0].toInt()
-        baseYear_month = wage_board_date[1].toInt()
+        baseYear_month = wage_board_date[1].toInt()*/
 
         if (view.promotion_text.text.toString().isNotEmpty() ||
             view.promotion_text.text.toString().isNotBlank()

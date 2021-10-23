@@ -49,8 +49,8 @@ class ThirdFragment : Fragment() {
 
         //--------------------------------pay slab structures-------------------------
 
-        val slabdata = listOf<Int>(0,22150,23200,24110,25540,27500,30070,31230,32420,35480,42030,43950)
-        val slabdata_new = listOf<Int>(0,67190, 70374, 73135, 77473, 83419, 91214, 94734, 98344, 107625, 127493, 133318)
+        val slabdata = listOf<Int>(0,22150,23200,24110,25540,27540,30070,31230,32420,35480,42030,43950)
+        val slabdata_new = listOf<Int>(0,35070, 36730, 38170, 40440, 43600, 47610, 49450, 51330, 56170, 66540, 69580)
 
 
 
@@ -61,11 +61,11 @@ class ThirdFragment : Fragment() {
             64.1, 64.1, 64.1, 66.3, 66.3, 66.3, 65.8, 65.8, 65.8, 69.4, 69.4, 69.4,
             73.2, 73.2, 73.2, 72.6, 72.6, 72.6, 74.6, 74.6, 74.6, 78.1, 78.1, 78.1, 78.1, 78.1, 78.1)
 
-        val newDaP = listOf<Double>(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.2, 2.2, 2.2, 3.4, 3.4, 3.4,
-            3.6, 3.6, 3.6, 3.9, 3.9, 3.9,7.4, 7.4, 7.4, 8.9, 8.9, 8.9, 10.1, 10.1, 10.1,
-            14.2, 14.2, 14.2, 14.8, 14.8, 14.8, 17.2, 17.2, 17.2, 18.8, 18.8, 18.8,
+        val newDaP = listOf<Double>(0.0, 0.0, 0.0, -1.1, -1.1, -1.1, -1.0, -1.0, -1.0, 2.2, 2.2, 2.2, 3.4, 3.4, 3.4,
+            3.5, 3.5, 3.5, 3.8, 3.8, 3.8,7.3, 7.3, 7.3, 8.8, 8.8, 8.8, 10.0, 10.0, 10.0,
+            12.4, 12.4, 12.4, 14.8, 14.8, 14.8, 17.2, 17.2, 17.2, 18.7, 18.7, 18.7,
             18.4,18.4, 18.4, 20.9, 20.9, 20.9, 23.7, 23.7, 23.7, 23.2, 23.2, 23.2,
-            25.1, 25.1, 25.1, 27.18, 27.18, 27.18, 27.18, 27.18, 27.18)
+            24.6, 24.6, 24.6, 27.1, 27.1, 27.1, 27.1, 27.1, 27.1)
 //--------------------------calculation Starts from here-------------------------------------------------
 
         var hike = 0
@@ -232,7 +232,7 @@ class ThirdFragment : Fragment() {
 
         //------------------------------------finding stagnancy for New basics----------------------------
 
-        /*
+
         for (i in hikeList.indices){
             if (i != 0){
                 var hikeDif = hikeList[i] - hikeList[i-1]
@@ -256,7 +256,7 @@ class ThirdFragment : Fragment() {
             }
         }
 
-         */
+
 
         //-----------------------------------New DA calculation-------------------------------------------------
         var newDa = mutableListOf<Int>()
@@ -303,9 +303,9 @@ class ThirdFragment : Fragment() {
 
 
 
-        if (stagnantValue == 1) {
+        /*if (stagnantValue == 1) {
             alertdialog(view)
-        }
+        }*/
 
         var salary = mutableListOf<MyData>()
 
@@ -345,14 +345,15 @@ class ThirdFragment : Fragment() {
         return view
     }
 
+    /*
     private fun alertdialog(view: View) {
 
-        var msg = "Your Basic Pay is stagnant. Since new basic structure is not out yet, Open ended Basic pay will be displayed here"
+        var msg = "Your Basic Pay is stagnant."
         val builder = AlertDialog.Builder(requireActivity())
         builder.setTitle("Alert").setMessage("$msg")
             .setPositiveButton("ok") { dialogInterface, it ->
                 dialogInterface.cancel()
             }.show()
-    }
+    }*/
 
 }
