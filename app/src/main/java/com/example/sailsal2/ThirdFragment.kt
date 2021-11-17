@@ -278,11 +278,30 @@ class ThirdFragment : Fragment() {
 
         //-----------------------------------Arrears calculation-------------------------------------------------
         var arrears = 0
-        for (i in difference.indices){
-            if ((month[i] >= arrearStartM) && (year[i] >= arrearStartY) && (month[i] <= arrearEndM) && (year[i] <= arrearEndY)){
-                arrears = arrears + difference[i]
+        var i1 = 0
+        var i2 = 0
+        for (i in difference.indices) {
+            if ((month[i] == arrearStartM) && (year[i] == arrearStartY)) {
+                i1 = i
+                //println("----------------------1------------------------")
+
+            }
+
+            if ((month[i] == arrearEndM) && (year[i] == arrearEndY)) {
+                i2 = i
+                //println("----------------------2------------------------")
+
             }
         }
+        //println(i1)
+        //println(i2)
+        for (k in i1.rangeTo(i2)){
+            arrears = arrears + difference[k]
+            //println("----------------------3------------------------")
+            //println(k)
+            //println("${month[k]}/${year[k]}")
+            }
+
 
         val totalWthPerk = newTotal.last() + perk.toInt()
 
